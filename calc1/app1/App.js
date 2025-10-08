@@ -3,7 +3,6 @@ import { Text, View, TouchableOpacity } from 'react-native';
 import { useState } from 'react';
 import styles from './style';
 
-
 export default function App() {
   const [display, setDisplay] = useState('0');
   const [previousValue, setPreviousValue] = useState(null);
